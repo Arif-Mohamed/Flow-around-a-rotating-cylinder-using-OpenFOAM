@@ -1,2 +1,2 @@
-echo # FlowAroundRotatingCylinder
+FlowAroundRotatingCylinder
 # FlowAroundRotatingCylinder
