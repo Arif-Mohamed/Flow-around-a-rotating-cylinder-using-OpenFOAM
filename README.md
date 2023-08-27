@@ -2,7 +2,12 @@
 
 ## Introduction
 
-This repository contains the setup files for numerical simulation project for studying the flow around a rotating cylinder using OpenFOAM. OpenFOAM is an open-source CFD (Computational Fluid Dynamics) software designed to model fluid flows and other continuum phenomena. The simulation is set up to capture the details of the flow patterns around a cylinder rotating at a constant angular velocity.
+This repository contains the setup files for numerical simulation project for studying the flow around a rotating cylinder using OpenFOAM. The two approaches that will be used to simulate the flow around the rotating cylinder are - 
+
+- rotatingWallVelocity Function (Rotating Boundary Conditions {RBC})
+- Multiple Reference Frame (MRF)
+
+OpenFOAM is an open-source CFD (Computational Fluid Dynamics) software designed to model fluid flows and other continuum phenomena. The simulation is set up to capture the details of the flow patterns around a cylinder rotating at a constant angular velocity.
 
 ## Requirements
 
@@ -10,7 +15,7 @@ This repository contains the setup files for numerical simulation project for st
 
 ## Directory Structure
 
-![A model case setup within OpenFOAM](Images/Directory.png)
+![An illustration of the OpenFOAM case setup, detailing the organization of directories and files required for running a simulation.](Images/Directory.png)
 
 ## Setup Steps
 
