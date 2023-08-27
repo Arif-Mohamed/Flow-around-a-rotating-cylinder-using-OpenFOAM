@@ -21,7 +21,7 @@ The files depicted with blue icons - imply functional files within OpenFOAM whic
 
 ## Geometry
 
-![An illustration of the geometry designed from the works of Mittal and Kumar (2003)[1]](Images/Geo_BC.png)
+![An illustration of the geometry designed from the works of Mittal and Kumar (2003)[1]](Images/Geo_BC_WhiteBackground.png)
 
 ### Mesh Generation
 
