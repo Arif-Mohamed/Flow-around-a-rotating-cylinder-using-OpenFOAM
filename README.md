@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the setup files for numerical simulation project for studying the flow around a rotating cylinder using OpenFOAM. The two approaches that will be used to simulate the flow around the rotating cylinder are - 
+This repository contains the setup files for numerical simulation project for studying the flow around a rotating cylinder using OpenFOAM. The two approaches that will be used to simulate the flow around the rotating cylinder are: 
 
 - rotatingWallVelocity Function (Rotating Boundary Conditions {RBC})
 - Multiple Reference Frame (MRF)
@@ -17,11 +17,15 @@ OpenFOAM is an open-source CFD (Computational Fluid Dynamics) software designed 
 
 ![An illustration of the OpenFOAM case setup, detailing the organization of directories and files required for running a simulation.](Images/Directory.png)
 
-## Setup Steps
+The files depicted with blue icons - imply functional files within OpenFOAM which are used to perform a particular task. For instance, the MRFProperties files is used to setup the axis, region and speed of rotating region.
+
+## Geometry
+
+![An illustration of the geometry designed from the works of Mittal and Kumar (2003)[1]](Images/Geo_BC.png)
 
 ### Mesh Generation
 
-- Meshing is done using `blockMesh` and optional refinement with `snappyHexMesh`.
+- Meshing is done using Pointwise for the setup of this repository, but any meshing tool can be used since this is a 2D cylinder setup. 
 
 ### Boundary Conditions
 
@@ -88,6 +92,10 @@ Feel free to fork the project and submit pull requests. Ensure you adhere to the
 
 - OpenFOAM Foundation for the software.
 - [Reference Paper](link)
+
+
+### References
+- [1] Mittal, S., & Kumar, B. (2003). *Flow past a rotating cylinder*. Journal of Fluid Mechanics, Volume(476), 303 - 334, url = https://api.semanticscholar.org/CorpusID:53349365.
 
 ## License
 
