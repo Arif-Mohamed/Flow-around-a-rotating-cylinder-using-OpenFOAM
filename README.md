@@ -22,11 +22,9 @@ The files depicted with blue icons - imply functional files within OpenFOAM whic
 ## Geometry
 
 
+![An illustration of the geometry designed from the works of Mittal and Kumar (2003)[1]](Images/Geo_BC_WhiteBackground.png)
 
-</p>
-  <img src="Images/Geo_BC_WhiteBackground.png" alt="An illustration of the geometry designed from the works of Mittal and Kumar (2003)">
-</p>
-
+The image displays the geometry designed from the works of Mittal and Kumar (2003)[1]. A uniform inlet velocity,
 
 ### Mesh Generation
 
