@@ -28,6 +28,7 @@ The files depicted with blue icons - imply functional files within OpenFOAM whic
   <img src="Images/Geo_BC_WhiteBackground.png" alt="An illustration of the geometry designed from the works of Mittal and Kumar (2003)">
 </p>
 
+
 ### Mesh Generation
 
 - Meshing is done using Pointwise for the setup of this repository, but any meshing tool can be used since this is a 2D cylinder setup. 
